@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --primary-background-color: #132043;
+    --secundary-background-color: #1F4172;
+    --highlight-color: #F1B4BB;
+    --font-color:  #FDF0F0;
+    --font-name: "Roboto Mono", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-name);
+}
+
+body {
+    background-color: var(--primary-background-color);
+}
