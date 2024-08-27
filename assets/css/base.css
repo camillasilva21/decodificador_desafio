@@ -4,7 +4,7 @@
     --primary-background-color: #132043;
     --secundary-background-color: #1F4172;
     --highlight-color: #F1B4BB;
-    --font-color:  #FDF0F0;
+    --font-color-text:  #FDF0F0;
     --font-name: "Roboto Mono", monospace;
 }
 
@@ -22,3 +22,10 @@ html {
 body {
     background-color: var(--primary-background-color);
 }
+
+.container {
+    width: min(100%, 120rem);
+    height: 87vh;
+    margin: auto;
+}
+

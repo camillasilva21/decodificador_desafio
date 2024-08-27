@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador</title>
     <link rel="shortcut icon" href="assets/images/key_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    
+   <header>
+        <h1>Decodificador de Textos</h1>
+   </header>
+
+   <div class="container">
+        <main>
+          <section class="container-imput">
+               <textarea id="text-area-imput"  placeholder="Digite seu texto aqui..." wrap="hard"></textarea>
+               <div class="warning-message-area">
+                    <img class="warning-icon" src="assets/images/icon_attetion.png" alt="ícone de alerta">
+                    <p>Apenas letras minúsculas e sem acento.</p>
+               </div>
+               <div class="buttons-area">
+                    <button onclick="encrypt()">Criptografar</button>
+                    <button onclick="decrypt()">Descriptografar</button>
+               </div>
+          </section>
+
+          <section class="container-output">
+               <textarea id="text-area-output" wrap="hard"></textarea>
+          </section>
+        </main>
+ 
+        <footer>
+ 
+        </footer> 
+   </div>
+   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
