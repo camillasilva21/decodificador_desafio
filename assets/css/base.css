@@ -25,7 +25,7 @@ body {
 
 .container {
     width: min(100%, 120rem);
-    height: 87vh;
+    height: 80vh;
     margin: auto;
 }
 
